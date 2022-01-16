@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: azdevopsagent
+  name: azdevopsagent
 
 steps:
 - task: NodeTool@0
